@@ -32,39 +32,47 @@
                     <a style="width: 135px; margin-left: 70px;"  class="nav-link active"  href="#" >What we do</a>
                 </li>
                 <li class="menu-has-children">
-                    <a style="width: 190px; " class="nav-link" href="sectors.html">Sectors & Services</a>
-                    <ul class="children" >
-                        <li><a href="/sectors/corporates.html">Corporates</a></li>
-                        <li><a href="/sectors/institutions.html">Institutions</a></li>
-                        <li><a href="/sectors/individuals.html">Individuals</a></li>
-                        <li><a href="project-details.html">Textile Industry</a></li>
-                        <li><a href="pricing.html">Apparel Manufacturers</a></li>
-                        <li><a href="project-details.html">Chemicals and Dye Manufacturers </a></li>
+                    <a style="width: 190px;" class="nav-link" href="sectors.html">Sectors & Services</a>
+                    <ul class="children" style="list-style: none; height: 130px;" >
+                        <li><a href="corporates.html">Corporates</a></li>
+                        <li><a href="institutions.html">Institutions</a></li>
+                        <li><a href="individuals.html">Individuals</a></li>
+                        <ul class="nav1">
+                            <li><a style="color: #A8D92E;" href="fashion-brands.html">Fashion Industry →</a>
+                                <ul style="  border:1px solid rgb(58, 52, 52);                                ">
+                                    <li><a href="textiles.html">Textile Industry</a></li>
+                                    <li><a href="apparels.html">Apparel Manufacturers</a></li>
+                                    <li><a href="dyeAndChemicals.html">Chemicals and Dye Manufacturers </a></li>
+                                    <li><a href="RetailersAndIndividuals.html">Retailers and Individuals</a></li>
+                                </ul>
+                                </li>
+                        </ul>
+                       
                       </ul>
                 </li>
               
                 <li class="menu-has-children">
-                    <a style="width: 110px;" class="nav-link" href="aboutus.html">Resources</a>
-                    <ul class="children">
+                    <a style="width: 110px;" class="nav-link" href="404.html">Resources</a>
+                    <!-- <ul class="children">
                         <li><a href="elements.html">Blogs</a></li>
                         <li><a href="contact.html">Articles</a></li>
-                      </ul>
+                      </ul> -->
                 </li>
                 <li class="menu-has-children">
                     <a style="width: 110px;" class="nav-link" href="aboutus.html">About Us</a>
-                    <ul class="children">
+                    <!-- <ul class="children">
                         <li><a href="elements.html">Meet the Founder</a></li>
                         <li><a href="contact.html">Our Team</a></li>
                         <li><a href="pricing.html">Careers</a></li>
-                      </ul>
+                      </ul> -->
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="">Testimonials</a>
+                    <a class="nav-link" href="404.html">Testimonials</a>
                 </li>
 
                 <li class="nav-item">
-                    <a style="width: 170px;" class="nav-link" href="">Contact Us</a>
+                    <a href="contact.html" style="width: 130px;" class="nav-link" href="">Contact Us</a>
                 </li>
               
             </ul>
@@ -81,7 +89,7 @@
             <h6>Zero in on Net Zero</h6> 
             <h4 class="headerdescription">With our Holistic Sustainable Consulting, we help individuals, businesses, governments, and non-governmental organizations across sectors in defining and realizing their sustainability goals. </h4>
 
-            <button class="btn btn-outline-light">Download Now</button> 
+            <button onclick=changescreen() class="btn btn-outline-light">Join With Us</button> 
         </div>      
     </header><!-- End of Page Header -->    
     
@@ -103,11 +111,11 @@
                         </div>
                         <div class="col">
                             <div >
-                                <img src="assets/imgs/markus-spiske-IRrUkB8Fq-0-unsplash.jpg" width="100%" height="200%" alt="About Us">
+                                <img src="assets/imgs/large-fall-leaf-in-hand.jpg" width="100%" height="200%" alt="About Us">
                             </div>
                         </div>
                     </div><!-- End of Row -->                   
-                    <a href="javascript:void(0)" style="color:#000">Read More...</a>
+                    <a href="aboutus.html" style="color:#000">Read More...</a>
                 </div>
             </div><!-- End of About Wrapper -->         
         </div>  <!-- End of Container-->        
@@ -128,7 +136,7 @@
                 While defining and formulating your sustainability roadmap, we assess & audit the existing state of affairs, present observations, get stakeholder buy-in and execute the agreed strategy. 
                 We see through the implementation of sustainability results in meeting tangible and intangible goals.
               </p>
-              <p id="clickable1" style="color:blue">Read More</p>
+              <p id="clickable1" onclick="changetofashionbrandsscreen()" style="color:blue">Read More</p>
             </div>
           </div>
           <div class=" servicescolumn">
@@ -141,7 +149,7 @@
                 We ensure responsible businesses progress with their Sustainable Development Goals (SDGs) by creating shared value for themselves and society while remaining profitable and resilient.
                  We put sustainability plans into meaningful actions and yield results.
               </p>
-              <p id="clickable2" style="color:blue">Read More</p>
+              <p id="clickable2" onclick="changetofashionbrandsscreen()" style="color:blue">Read More</p>
 
             </div>
           </div>
@@ -156,24 +164,25 @@
     <!-- section -->
     <section class="founderprofile" style="margin-top:50px; width:90%; margin-left: 5%; background: #FFf url(./assets/imgs/founderbg.jpg);  background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;    ">
+    background-size: cover; height: 70%;">
         <!-- Container -->
         <div class="container">
             <!-- row -->
-            <div class="row justify-content-between align-items-center">
-                <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-5">
                     <div class="img-wrapper">
                         <div class="after"></div>
-                        <img src="assets/imgs/avatar1.jpg" class="w-100" alt="About Us">
+                        <img  src="assets/imgs/Anamika Image .jpg" alt="About Us">
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <h6 class="title mb-3">Meet the Founder</h6>
+                    <h6 class="title mb-3">Meet the CEO & Founder</h6>
                     <h3 class="namw" style="font-size: 40px;">Anamika Sengupta</h3>
+                    <h5 class="namw" style="font-size: 20px;">Mindfully Sustainabile LTD, UK</h5>
 
-                    <p style="color: #000;">I’m the Founder and Chief Sustainability Consultant at Mindfully Sustainable</p>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, amet!</p>
-                    <button class="btn btn-outline-primary btn-sm">Learn More</button>
+                    <p style="color: #000;">“I am committed to make sustainability simple,
+                        practical and result-oriented for businesses.”</p>
+                    <button onclick="changetoaboutscreen()" class="btn btn-outline-primary btn-sm">Learn More</button>
                 </div>
             </div>
             <!-- End of Row -->
@@ -347,53 +356,45 @@ background-size: cover; margin-top:2%">
           <h3 style="text-align:center; font-size:35px; color:#000; margin-top: 20px;">Resources</h3>
           
           <div>
-          <div class="gallery" style="margin-left: 21%; ">
-            <a target="_blank" href="./assets/imgs/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg">
-              <img src="./assets/imgs/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg" alt="Forest" width="600" height="400">
-            </a>
+          <div class="gallery" style="margin-left: 21%;">
+              <img src="./assets/imgs/article1.png" alt="Forest" width="600" height="500">
             <div style="background-color:rgb(54, 49, 49)">
-              <div  class="desc">Sustainable Business Practices: 101 </div>
-              <p style="color:white; margin-top: 8%;">Excerpt goes here… Excerpt goes here…
-                Excerpt goes here…
+              <div  class="desc">Latest Sustainable Business Practices : 101</div>
+              <p style="color:white; margin-top: 8%; text-align: center;">coming soon
                 
                 </p>
-                <a><p style="text-align:center; color: rgb(104, 220, 96);">Read More</p></a>
+                <a href="404.html"><p style="text-align:center; color: rgb(104, 220, 96);">Read More</p></a>
             </div>
           
           </div>
           
           <div class="gallery" style="margin-left: 1%;">
-            <a target="_blank" href="./assets/imgs/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg">
-              <img src="./assets/imgs/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg" alt="Forest" width="600" height="600">
-            </a>
+              <img src="./assets/imgs/article2.png" alt="Forest" width="600" height="600">
             <div style="background-color:rgb(54, 49, 49)">
             <div class="desc">What is Sustainability and What is Not?</div>
-            <p style="color:white; ">Excerpt goes here… Excerpt goes here…
-              Excerpt goes here…
-              
+            <p style="color:white; margin-top: 8%; text-align: center;">coming soon
+
               </p>
-              <a><p style="text-align:center; color: rgb(104, 220, 96);">Read More</p></a>
-          </div>
+              <a href="404.html"><p style="text-align:center; color: rgb(104, 220, 96);">Read More</p></a>
+            </div>
         </div>
 
           <div class="gallery" style="margin-left: 1%;">
-            <a target="_blank" href="./assets/imgs/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg">
-              <img src="./assets/imgs/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg" alt="Forest" width="600" height="400">
-            </a>
+              <img src="./assets/imgs/article3.png" alt="Forest" width="600" height="400">
             <div style="background-color:rgb(54, 49, 49)">
 
             <div class="desc">Top 10 Industry Use Cases on Sustainability</div>
-            <p style="color:white">Excerpt goes here… Excerpt goes here…
-              Excerpt goes here…
+            <p style="color:white; margin-top: 8%; text-align: center;">coming soon
+
               
               </p>
-              <a><p style="text-align:center; color: rgb(104, 220, 96);">Read More</p></a>
-          </div>
+              <a href="404.html"><p style="text-align:center; color: rgb(104, 220, 96);">Read More</p></a>
+            </div>
         </div>
     </div>
  
     <div style="margin-top: 29%; background-color: #000; text-align: center; ">
-        <h6 style="height:30px; padding-top: 3px; position: absolute; border: 1px solid black; margin-left: 45%; font-size: large; width: 180px; background-color: greenyellow; color: black;">View All Articles</h6>
+        <h6 onclick=changeloc() style="height:30px; padding-top: 3px; position: absolute; border: 1px solid black; margin-left: 45%; font-size: large; width: 180px; background-color: greenyellow; color: black;">View All Articles</h6>
 
     </div>
 
@@ -476,7 +477,7 @@ background-size: cover; margin-top:2%">
     <!-- Section -->
     <section class="pb-0" style="background-color:rgb(61, 54, 54);">
         <!-- Container -->
-        <div class="container">
+        <div class="container"  style="margin-left: 10%;">
             <!-- Pre footer -->
             <div class="pre-footer">
                 <ul class="list">
@@ -495,16 +496,32 @@ background-size: cover; margin-top:2%">
                     </li>
                     <li class="list-body">
                         <p style="color:rgb(217, 208, 208);">Contact us and we'll get back to you within 24 hours.</p>
-                        <p style="color:rgb(217, 208, 208) ;"><i class="ti-location-pin" ></i> 12345 Fake ST NoWhere AB Country</p>
-                        <p style="color:rgb(134, 198, 233) ;"><i class="ti-email"></i>  anamika@mindfullysustainable.co.uk</p>
+                        <p style="color:rgb(217, 208, 208) ;"><i class="ti-location-pin" ></i> Registered office address </p>
+                        <p style="color:rgb(217, 208, 208) ;"><i class="ti-location" ></i> 27,Old Gloucester Street, London, </p>
+                        <p style="color:rgb(217, 208, 208) ;"><i class="ti-location" ></i> WC1N 3AX,UK  </p>
                         <div class="social-links">
-                            <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
-                            <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
-                            <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
-                            <a href="javascript:void(0)" class="link"><i class="ti-youtube"></i></a>
+                            <a href="https://www.facebook.com/Mindfullysustainable-103132385807862" class="link" target="_blank"><i class="ti-facebook"></i></a>
+                            <a href="https://twitter.com/mindfullysusta1https://twitter.com/mindfullysusta1" class="link" target="_blank"><i class="ti-twitter-alt"></i></a>
+                            <a href="https://www.instagram.com/mindfullysustainable" class="link" target="_blank"><i class="ti-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/mindfullysustainable/" class="link" target="_blank"><i class="ti-linkedin"></i></a>
                         </div>
                     </li>
                 </ul> 
+
+                <ul class="list">
+                    <li class="list-head">
+                        <h6 style="color:white" class="font-weight-bold">MORE INFO</h6>
+                    </li>
+                    <li class="list-body">
+                        <p style="color:rgb(217, 208, 208) ;"><i class="ti-location-pin" ></i> Correspondence address                        </p>
+                        <p style="color:rgb(217, 208, 208) ;"><i class="ti-location" ></i> 8 Swallows Court,Vickers Lane                        </p>
+                        <p style="color:rgb(217, 208, 208) ;"><i class="ti-location" ></i> Dartford,DA1 5FG                        </p>
+                        <p style="color:rgb(134, 198, 233) ;"><i class="ti-email"></i>  anamika@mindfullysustainable.co.uk</p>
+                        <p style="color:rgb(134, 198, 233) ;"><i class="fa fa-phone" style="font-size: 20px;"></i> +447361895321</p>
+
+                    </li>
+                </ul> 
+
             </div><!-- End of Pre footer -->            
 
             <!-- foooter -->
@@ -526,16 +543,7 @@ background-size: cover; margin-top:2%">
     <script src="assets/js/creative-design.js"></script>
 
     <script>
-       document.querySelector("#clickable1").onclick = () => {
-        document.getElementById('servicessection_sis').style.display = "none";
-        document.getElementById('servicessection_scs').style.display = "block";
-
-
-       }
-       document.querySelector("#clickable2").onclick = () => {
-        document.getElementById('servicessection_scs').style.display = "none";
-        document.getElementById('servicessection_sis').style.display = "block";
-       }
+     
      
 
        function myFunction() {
@@ -546,8 +554,17 @@ document.querySelector("#form-group1").onclick = () => {
         document.getElementById('form').style.display = "block";
         document.getElementById('form-group1').style.display = "none";
        }
+       function changescreen()
+       {window.location="contact.html"}
 
+       function changeloc()
+       {window.location="404.html"}
 
+       function changetofashionbrandsscreen()
+       {window.location="fashion-brands.html"}
+
+       function changetoaboutscreen()
+       {window.location="aboutus.html"}
     </script>
 
 </body>
