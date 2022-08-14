@@ -11723,11 +11723,10 @@ background-color: #121416;
 }
 .servicescard {
   width: 100%;
-  height: 100%;
+  height: 400px;
   padding: 2em 1.5em;
   background: linear-gradient(#ffffff 50%, #20b3bb 50%);
   background-size: 100% 200%;
-  background-position: 0 2.5%;
   border-radius: 5px;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
   cursor: pointer;
@@ -11781,7 +11780,7 @@ p {
   }
   .servicescolumn {
     flex: 0 50%;
-    max-width: 50%;
+    max-width: 30%;
   }
   .servicessection_sis {
     padding: 0 2em;
@@ -11789,8 +11788,9 @@ p {
   .servicessection_svs {
     padding: 0 2em;
   }
+ 
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1500px){
   .servicessection_scs {
     padding: 1em 3em;
   }
@@ -11804,8 +11804,63 @@ p {
   .servicessection_svs {
     padding: 1em 3em;
   }
+
+}
+@media screen and (min-width: 412px) and (max-width: 767px) {
+
+  .servicessection_scs {
+    padding: 1em 3em;
+    overflow-x: hidden;
+    background-size: 0% 0%;
+
+  }
+ .servicescard{
+    flex: 0 0 33.33%;
+    max-width: 500%;
+    max-height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  .servicescolumn {
+    flex: 0 0 33.33%;
+    max-width: 50.33%;
+    max-height: 100%;
+    margin-left: 0%;
+  }
+  .servicessection_sis {
+    padding: 1em 3em;
+  }
+  .servicessection_svs {
+    padding: 1em 3em;
+  }
+   .servicessection_svs h2{
+    font-size: 20px;
+  }
+  .servicessection_svs h3{
+    font-size: 15px;
+  }
+  .servicesicon-wrapper{
+    scale: 1;
+  }
+  .servicessection_svs p{
+    font-size: 10px;
+  }
+  .servicesrow_svs{
+    font-size: 10px;
+  }
 }
 
+.founderprofile{
+  margin-top:50px;
+  width:90%;
+  margin-left: 5%;
+  background: #FFf;
+  background-image : url(./assets/imgs/founderbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70%;
+}
 
 
 .headerdescription{
