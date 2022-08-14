@@ -11643,6 +11643,9 @@ section.height-auto {
   }
 }
 
+.testmonialcontainer {
+  margin-left: 5%;
+}
 /* testmonial */
 .testmonial-wrapper {
   background: #eaf0fc;
@@ -11653,7 +11656,7 @@ section.height-auto {
   height: 350px;
   overflow: auto;
   min-width: 500px;
-  max-width: 1000px;
+  max-width: 700px;
 }
 
 .testmonial-wrapper img {
@@ -11852,7 +11855,22 @@ p {
   .founderprofile h3{
     font-size: 10px;
   }
+  .about-wrapper{
+    margin-left: 0%;
+  }
 }
+
+.about-wrapper{
+  margin-left: 6%;
+}
+
+.howWeWork{
+  background-image: url(/assets/imgs/jared-rice-PibraWHb4h8-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+   margin-top:2%
+  }
 
 .founderprofile{
   margin-top:50px;
